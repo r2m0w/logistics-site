@@ -1,0 +1,294 @@
+body {
+    font-family: 'Righteous', cursive;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+}
+
+span {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+}
+
+span:hover {
+    color: #151515;
+
+}
+
+.site-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #fce514;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+   
+}
+
+
+
+.fab {
+    color: black;
+    
+}
+
+
+
+
+.navbar-nav li a {
+    color: black !important;
+    font-size: 20px;
+    margin: 0 5px;
+
+    
+}
+
+
+.site-title {
+    text-align: center;
+    margin-top: 7%;
+    height: 74vh;
+    
+}
+
+.site-title h2 {
+    font-size: 50px;
+}
+
+.jumbotron {
+    background-image: url("stock/global.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+}
+.jumbotron p {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: center;
+}
+
+.title-text {
+    width: 80%;
+    height: 5vh;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-sub1  {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px;
+}
+.btn-sub1 a{
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+
+.btn-sub2 {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px;
+
+}
+
+.btn-sub2 a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+/*Content 1 styles */
+.content-1 {
+    font-size: 10px;
+    color: #151515;
+    background-color:yellow;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+ .title-border {
+    content: "";
+    width: 50%;
+    height: 2px;
+    display: block;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.curcle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    background-color: white;
+    border: 1px solid rgba(63,73,76,0.5);
+    transition: all 200ms ease;
+}
+
+.description a{
+    text-decoration: none;
+}
+
+.description p{
+    font-size: 15px;
+}
+
+.description h5 {
+    color: black;
+}
+/*End of Content 1 */
+
+
+/*Content 2 */
+.content-2 .row .col-1{
+    background: url('stock/intbiz.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.content-2 .col-md-6 p {
+    font-size: 12px;
+
+}
+/*End of Content 2 */
+
+/*Content 3 */
+.content-3  {
+    width: 100vw;
+    background-color: #fce514;
+}
+
+.content-3 .row {
+    padding-bottom: 4%;
+}
+
+.content-3 .col-md-12 p {
+    font-size: 24px;
+    
+}
+
+.content-3 .col-md-12 h3 {
+    margin-bottom: 2%;
+}
+
+.content-3 .pro {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #fffbfe;
+}
+
+.content-3 .pro h4 {
+    border: 1px solid rgba(23,23,38,0.2);
+    background-color: black;
+    color: white;
+    border-top: none;
+}
+
+.content-3 .pro .price .dollar {
+    font-size: 19px;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.content-3 .pro a {
+    display: inline-block;
+    padding: 8px 40px;
+    margin: 10% 10%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/*Team Members */
+.content-5 .row {
+    margin-top: 8%;
+}
+
+.content-5 .member-1 .avatar {
+    margin: 20px 0px;
+
+}
+
+.person1 {
+    border-radius: 100px;
+    width: 200px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.contact {
+    margin-bottom: 5%;
+}
+
+.btn-primary {
+    background-color: #fce514;
+    color: black;
+    border: none;
+    width: 500px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+}
+
+.center {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/*footer */
+
+footer {
+    background-color: #fce514;
+    padding-top: 4%;
+    margin: 0px;
+    position: relative;
+}
+
+footer span {
+    padding: 5px 5px;
+    transition: all 500ms ease;
+}
+
+footer p {
+    margin: 0px;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+footer .top a {
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    color: black;
+}
